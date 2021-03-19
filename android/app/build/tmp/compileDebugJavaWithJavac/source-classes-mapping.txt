@@ -1,0 +1,14 @@
+com/ozveri/MainActivity.java
+ com.ozveri.MainActivity
+com/ozveri/ReactNativeFlipper.java
+ com.ozveri.ReactNativeFlipper
+ com.ozveri.ReactNativeFlipper$1
+ com.ozveri.ReactNativeFlipper$2
+ com.ozveri.ReactNativeFlipper$2$1
+com/ozveri/MainApplication.java
+ com.ozveri.MainApplication
+ com.ozveri.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/ozveri/BuildConfig.java
+ com.ozveri.BuildConfig

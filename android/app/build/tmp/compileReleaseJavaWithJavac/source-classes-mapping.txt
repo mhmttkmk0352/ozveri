@@ -1,0 +1,9 @@
+com/ozveri/MainActivity.java
+ com.ozveri.MainActivity
+com/ozveri/MainApplication.java
+ com.ozveri.MainApplication
+ com.ozveri.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/ozveri/BuildConfig.java
+ com.ozveri.BuildConfig
