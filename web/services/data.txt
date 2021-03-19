@@ -1,0 +1,15 @@
+/* 
+    AÇIKLAMA
+
+    Hash Getirme Adresi:
+    http://lamerdiary.com/services/service.php?komut=hash&kullanici_adi=mehmet_tokmak&parola=1881
+
+    Konum Ekleme Adresi:
+    http://lamerdiary.com/services/service.php?komut=ekle&hash=f90415ed3e3546a23241f5d3ec417e18&latitude=30&longitude=55
+
+    Liste:
+    http://lamerdiary.com/services/service.php?komut=liste
+
+    Kaldır
+    http://lamerdiary.com/services/service.php?komut=guncelle&id=74
+*/
