@@ -5,6 +5,10 @@ import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
 import RNAndroidLocationEnabler from 'react-native-android-location-enabler';
 import Geolocation from 'react-native-geolocation-service';
 import axios from 'axios';
+import {RNCamera} from 'react-native-camera';
+import {StackActions} from '@react-navigation/native';
+
+console.log( RNCamera );
 
 class App extends React.Component{
   constructor( props ){
@@ -91,6 +95,11 @@ class App extends React.Component{
     this.setState( {selectedMarker: e.id} );
   }
 
+  goToPage=(pageName, data)=>{
+    const stackAction = StackActions.push( pageName, data );
+    this.props.navigation.dispatch( stackAction );
+  }
+
 
   componentDidMount(){
     this.openGps();
@@ -138,7 +147,7 @@ class App extends React.Component{
           </View>
           <View style={styles.buttonView}>
             <View style={{flex:1}}>
-                <Button secondary style={styles.Button} onPress={ ()=>{this.getPosition( true )} }>
+                <Button secondary style={styles.Button} onPress={ ()=>{this.goToPage("Barcode", {})} }>
                   <Text style={styles.ButtonText}>Kutu Ekle</Text>
                 </Button>
             </View>

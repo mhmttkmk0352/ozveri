@@ -7,6 +7,7 @@ const Stack = createStackNavigator();
 //Page Start
 import Giris from './pages/giris';
 import Anasayfa from './pages/anasayfa';
+import Barcode from './pages/barcode';
 //Page End
 
 class App extends React.Component{
@@ -16,6 +17,7 @@ class App extends React.Component{
         <Stack.Navigator initialRouteName={"Giris"}>
           <Stack.Screen name="Giris" component={Giris} options={{headerShown:false}}></Stack.Screen>
           <Stack.Screen name="Anasayfa" component={Anasayfa} options={{headerShown:false}}></Stack.Screen>
+          <Stack.Screen name="Barcode" component={Barcode} options={{headerShown:true}}></Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
     );

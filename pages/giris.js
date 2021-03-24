@@ -71,10 +71,10 @@ class App extends Component {
   render() {
     return (
       <SafeAreaView style={styles.SafeAreaView}>
-          <View style={{flex:70}}>
+          <View style={{flex:50 ,justifyContent:"center", alignItems:"center"}}>
             <Image source={require("./images/logo.png")} style={styles.Image} />
           </View>
-          <View style={{flex:30}}>
+          <View style={{flex:50}}>
               <Form>
                 <Item>
                   <Input style={styles.Input} value={this.state.kullanici_adi} placeholder="Kullanıcı Adı" onChangeText={ text => { this.setState({kullanici_adi: text}) } } />
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   SafeAreaView:{flex:1,flexDirection:"column", backgroundColor:"#f1f1f1"},
   Button:{width:'100%',justifyContent:'center'},
   Input:{textAlign:"center"},
-  Image:{width:"100%", height:"100%"}
+  Image:{width:"60%", height:"60%"}
 });
 
 export default  App;
